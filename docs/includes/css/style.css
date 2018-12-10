@@ -1,0 +1,61 @@
+.center-span{
+	text-align: center;
+	font-size:15px;
+	font-weight:bolder;
+    vertical-align: middle;
+}
+.col-xs-2{
+	padding: 10px 0 10px 0;
+}
+.row{
+	margin:0;
+}
+#main-content {
+	margin-top:20px;
+	height:300px
+}
+.modal{
+	direction:rtl;
+	overflow-y: auto;
+}
+
+.modal .modal-dialog{
+	direction:ltr;
+}
+
+.modal-open{
+	overflow:auto;
+}
+.btm-icon ul li {
+	float: right;
+	list-style: none;
+	margin:10px;
+	font-size: 25px;
+}
+.footer{
+	background: #4ECDC4;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #556270, #4ECDC4);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #556270, #4ECDC4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+.header{
+	background: #4ECDC4;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #556270, #4ECDC4);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #556270, #4ECDC4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	left: 0;
+	top: 0;
+	width: 100%;
+	text-align: center;
+	margin-bottom:100px;
+}
+.nav-link{
+	font-size:25px;
+	color:white;
+}
+#txtHint, #selected{
+	font-size:15px;
+}
